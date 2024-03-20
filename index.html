@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <form autocomplete="off">
+        <div class="main">
+            <div class="left">
+                <label for="username">User Name</label>
+            </div>
+            <div class="right">
+                <input type="text" id="username" name="User_name" minlength="10" maxlength="15" placeholder="enter your name" value="sumit" required>
+            </div>
+        </div>
+        <div class="main">
+            <div class="left">
+                <label for="useremail">User Email</label>
+            </div>
+            <div class="right">
+                <input type="email" id="useremail" name="user_email" required>
+            </div>
+        </div>
+        <div class="main">
+            <div class="left">
+                <label for="userpass">User Password</label>
+            </div>
+            <div class="right">
+                <input type="password" id="userpass" name="user_password" required>
+            </div>
+        </div>
+        <div class="main">
+            <div class="left">
+                <label for="">User address</label>
+            </div>
+            <div class="right">
+                <textarea id=""></textarea>
+            </div>
+        </div>
+        <div class="main">
+            <div class="left">
+                <label for="">User Age</label>
+            </div>
+            <div class="right">
+                <input type="number" id="" min="18" max="50">
+            </div>
+        </div>
+        <div class="main">
+            <div class="left">
+                <label for="">User Dob</label>
+            </div>
+            <div class="right">
+                <input type="date" id="">
+            </div>
+        </div>
+        <div class="main">
+            <div class="left">
+                <label for="">User Time</label>
+            </div>
+            <div class="right">
+                <input type="time" id="">
+            </div>
+        </div>
+        <div class="main">
+            <div class="left">
+                <label for="" >User Month</label>
+            </div>
+            <div class="right">
+                <input type="month" id=""  readonly>
+            </div>
+        </div>
+        <div class="main">
+            <div class="left">
+                <label for="">User Date and time</label>
+            </div>
+            <div class="right">
+                <input type="datetime-local" id="">
+            </div>
+        </div>
+        <div class="main">
+            <div class="left">
+                <label for="">User Range</label>
+            </div>
+            <div class="right">
+                <input type="range" id="">
+            </div>
+        </div>
+        <div class="main">
+            <div class="left">
+                <label for="">Gender</label>
+            </div>
+            <div class="right">
+                <input type="radio" id="male" name="gender" value="male" >
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">other</label>
+            </div>
+        </div>
+        <div class="main">
+            <div class="left">
+                <label for="">Hobbies</label>
+            </div>
+            <div class="right">
+                <input type="checkbox" id="" value="cricket" name="hobbies" checked>
+                <label for="">cricket</label>
+                <input type="checkbox" id="" value="football" name="hobbies">
+                <label for="">football</label>
+                <input type="checkbox" id="" value="boxing" name="hobbies"> 
+                <label for="">boxing</label>
+            </div>
+        </div>
+        <div class="main">
+            <div class="left">
+                <label for="">User Color</label>
+            </div>
+            <div class="right">
+                <input type="color" id="">
+            </div>
+        </div>
+        <div class="main">
+            <div class="left">
+                <label for="">file</label>
+            </div>
+            <div class="right">
+                <input type="file" id="">
+            </div>
+        </div>
+        <div class="main">
+            <div class="left">
+                <label for="">User Country</label>
+            </div>
+            <div class="right">
+                <select >
+                    <option value="">please select your country</option>
+
+                    <optgroup label="Asia">
+                     <option value="india" selected>India</option>
+                     <option value="bhutan">Bhutan</option>
+                    </optgroup>
+                    <option value="Uk">United kingdom</option>
+                </select>
+            </div>
+        </div>
+        <div class="main">
+            <div class="left">
+            </div>
+            <div class="right">
+                <input type="submit">
+                <input type="reset">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
